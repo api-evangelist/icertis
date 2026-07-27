@@ -1,8 +1,29 @@
 aid: icertis
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/icertis.png
 name: Icertis
-description: 'Icertis is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Icertis is an AI-native contract intelligence company that turns enterprise
+  contracts into structured, actionable data and measurable business outcomes. Its
+  Contract Intelligence (ICI) platform manages agreements across their full lifecycle
+  — authoring, negotiation, execution, obligation management, and ongoing analytics
+  — spanning sell-side, buy-side, and corporate contracts. The platform pairs a configurable
+  contract data model with AI capabilities (the "Vera" AI assistant and agent-powered
+  drafting, redlining, and negotiation) trained on millions of contracts. Icertis serves
+  large enterprises across manufacturing, life sciences, healthcare, technology, financial
+  services, and the public sector, and integrates with ERP, CRM, CPQ, and procurement
+  systems such as SAP, Salesforce, Microsoft Dynamics, and Coupa. This profile was
+  added to the API Evangelist network as a portfolio company of SoftBank Vision Fund
+  and enriched from Icertis'' public web presence.'
 url: https://raw.githubusercontent.com/api-evangelist/icertis/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +33,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise
+- Contract Lifecycle Management
+- Contract Intelligence
+- CLM
+- Legal Technology
+- Artificial Intelligence
+- Procurement
+- Contract Management
+- SaaS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/icertis-domain-security.yml
+- type: Website
+  url: https://www.icertis.com/
+- type: TrustCenter
+  url: https://trustcenter.icertis.com/
+- type: Compliance
+  url: https://trustcenter.icertis.com/
+- type: Blog
+  url: https://www.icertis.com/research/blog/
+- type: PrivacyPolicy
+  url: https://www.icertis.com/information/icertis-privacy-statement/
+- type: Conformance
+  url: conformance/icertis-conformance.yml
+- type: WellKnown
+  url: well-known/icertis-well-known.yml
+- type: LLMsTxt
+  url: llms/icertis-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

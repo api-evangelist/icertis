@@ -1,0 +1,14 @@
+generated: '2026-07-19'
+method: searched
+host: https://www.icertis.com
+note: |
+  Icertis runs a marketing site plus a gated customer platform (ICI). No
+  public /.well-known/ discovery documents were served on the primary host.
+  Absence is expected and valid.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404

@@ -1,0 +1,46 @@
+generated: '2026-07-19'
+method: searched
+source: https://trustcenter.icertis.com/
+note: |
+  Icertis publishes no public OpenAPI, so cross-cutting API standards (oauth2,
+  oidc, rfc9457, pagination, idempotency) cannot be derived here. The standards
+  below are the security/compliance certifications Icertis publicly attests to on
+  its Trust Center (SafeBase by Drata). conforms:true reflects a published,
+  named certification; it is not an independent audit by API Evangelist.
+standards:
+- id: soc-1-type-2
+  conforms: true
+  evidence: named on trustcenter.icertis.com
+- id: soc-2-type-2
+  conforms: true
+  evidence: named on trustcenter.icertis.com
+- id: iso-27001-2022
+  conforms: true
+  evidence: ISO/IEC 27001:2022 certificate + SoA on trustcenter.icertis.com
+- id: iso-27017-2015
+  conforms: true
+  evidence: named on trustcenter.icertis.com
+- id: iso-27018-2019
+  conforms: true
+  evidence: named on trustcenter.icertis.com
+- id: fedramp
+  conforms: true
+  evidence: FedRAMP (Certified Class D) named on trustcenter.icertis.com
+- id: nist-800-171-r2
+  conforms: true
+  evidence: named on trustcenter.icertis.com
+- id: tisax
+  conforms: true
+  evidence: named on trustcenter.icertis.com
+- id: gdpr
+  conforms: true
+  evidence: named on trustcenter.icertis.com
+- id: itar
+  conforms: true
+  evidence: named on trustcenter.icertis.com
+- id: oauth2
+  conforms: false
+  evidence: no public OpenAPI or documented OAuth surface
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public OpenAPI
